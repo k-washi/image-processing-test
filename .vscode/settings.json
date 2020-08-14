@@ -1,3 +1,19 @@
 {
-    "python.pythonPath": "/Users/washizakikai/.anyenv/envs/pyenv/versions/mlops-image-e1/bin/python"
+    "python.pythonPath": "/Users/washizakikai/.anyenv/envs/pyenv/versions/mlops-image-e1/bin/python",
+    "python.autoComplete.extraPaths": [
+        "/Users/washizakikai/.anyenv/envs/pyenv/versions/3.6.9/envs/mlops-image-e1/lib/python3.6/site-packages",
+    ],
+    "python.jediEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "editor.formatOnSave": true,
+    "python.autoComplete.addBrackets": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501"
+    ],
+    "python.formatting.autopep8Args": ["--ignore", "E402"],
+    "editor.fontSize": 14,
+    "python.analysis.symbolsHierarchyDepthLimit": 20,
+    "python.condaPath": "/usr/local/anaconda3/bin/conda",
+    "terminal.integrated.rendererType": "dom",
+    "python.languageServer": "Microsoft"
 }

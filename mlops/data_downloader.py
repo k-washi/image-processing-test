@@ -113,7 +113,7 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     logging.info("Started")
 
-    #if check_execution_path():
+    # if check_execution_path():
     create_folder()
     download_dataset()
     update_csv()
